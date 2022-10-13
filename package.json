@@ -1,0 +1,14 @@
+{
+  "name": "lgbtq_movies",
+  "version": "1.0.0",
+  "description": "This is a React project that will focus on LGBTQ movies",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "serve": "^14.0.1"
+  }
+}
