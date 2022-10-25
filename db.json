@@ -1,0 +1,39 @@
+{
+  "lgbtqMovies": [
+    {
+      "id": 1,
+      "title": "Mysterious Skin",
+      "release": "2004",
+      "genre": "Coming-ofAge",
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BMTgxMjQ4NzE5OF5BMl5BanBnXkFtZTcwNzkwOTkyMQ@@._V1_.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Desert Hearts",
+      "release": "1986",
+      "genre": "Drama",
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BMjM4Njk1MDk2OV5BMl5BanBnXkFtZTcwNjE5NDY0MQ@@._V1_.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Love Simon",
+      "release": "2018",
+      "genre": "Drama",
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BNTMyZDdiMzUtZjcxNS00Mjc3LTljY2UtYjI4YmY5NzJlYjc1XkEyXkFqcGdeQXVyMTA5OTkwNTc@._V1_.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Dog Day Afternoon",
+      "release": "1975",
+      "genre": "Biographical",
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BNmZiYzQ2ZmYtZTViNy00ODRkLWJkN2EtNjgwYWY1OGNmNDcxXkEyXkFqcGdeQXVyNjUwNzk3NDc@._V1_.jpg"
+    },
+    {
+      "title": "Port Authority",
+      "release": "2019",
+      "genre": "Drama",
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BZGJmYzBhMjctMDNjYi00YmJmLWFhOWMtYzQxMTBjOWNhOTQ0XkEyXkFqcGdeQXVyMzE4MjM0OQ@@._V1_.jpg",
+      "id": 5
+    }
+  ]
+}
