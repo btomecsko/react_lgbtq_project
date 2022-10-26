@@ -34,6 +34,62 @@
       "genre": "Drama",
       "imageUrl": "https://m.media-amazon.com/images/M/MV5BZGJmYzBhMjctMDNjYi00YmJmLWFhOWMtYzQxMTBjOWNhOTQ0XkEyXkFqcGdeQXVyMzE4MjM0OQ@@._V1_.jpg",
       "id": 5
+    },
+    {
+      "id": 6,
+      "title": "Young Soul Rebels",
+      "release": "1991",
+      "genre": "",
+      "imageUrl": ""
+    },
+    {
+      "id": 7,
+      "title": "Portrait of a Lady on Fire",
+      "release": "2019",
+      "genre": "",
+      "imageUrl": ""
+    },
+    {
+      "id": 8,
+      "title": "Paris is Burning",
+      "release": "1990",
+      "genre": "",
+      "imageUrl": ""
+    },
+    {
+      "id": 9,
+      "title": "Saving Face",
+      "release": "2004",
+      "genre": "",
+      "imageUrl": ""
+    },
+    {
+      "id": 10,
+      "title": "Call Me by Your Name",
+      "release": "2017",
+      "genre": "",
+      "imageUrl": ""
+    },
+    {
+      "id": 11,
+      "title": "A Fantastic Woman",
+      "release": "2017",
+      "genre": "",
+      "imageUrl": ""
+    },
+    {
+      "id": 12,
+      "title": "My Own Private Idaho",
+      "release": "1991",
+      "genre": "",
+      "imageUrl": ""
+    },
+    {
+      "id": 13,
+      "title": "Brokeback Mountain",
+      "release": "2005",
+      "genre": "",
+      "imageUrl": ""
     }
   ]
 }
