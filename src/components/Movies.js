@@ -5,7 +5,6 @@ import ListGroup from 'react-bootstrap/ListGroup';
 
 const Movies = ({title, year, genre, poster}) => {
   return (
-    
       <li>
       <Card style={{ width: '18rem' }}>
       <Card.Img variant="top" src={poster} alt={title}/>

@@ -1,8 +1,17 @@
+import React, {useEffect, useState} from "react";
 import Movies from "./Movies";
 
-const MoviesContainer = ({movies}) => {
 
+const MoviesContainer = () => {
 
+  const [movies, setMovies] = useState([]);
+
+  useEffect(() => {
+    fetch('http://localhost:3001/lgbtqMovies')
+    .then(res => res.json())
+    .then(data => setMovies(data))
+    .catch(err => console.error(err))
+  }, []);
 
   return (
     <ul className="cards">
