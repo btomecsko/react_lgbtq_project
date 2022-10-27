@@ -1,4 +1,5 @@
 import React, {useState} from "react";
+import {useNavigate} from "react-router-dom";
 
 import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
@@ -7,6 +8,7 @@ import Button from 'react-bootstrap/Button';
 
 const AddMovie = ({movies, setMovies}) => {
 
+  const navigate = useNavigate();
   const [form, setForm] = useState({});
   
   let handleChange = (e) => {
@@ -29,6 +31,7 @@ const AddMovie = ({movies, setMovies}) => {
     })
       .then((res) => res.json())
       .then((data) => setMovies([data, ...movies]));
+      navigate("/movies")
   };
 
   return (

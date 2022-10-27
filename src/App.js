@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from "./components/Navbar";
 import AddMovie from "./components/AddMovie";
 import MoviesContainer from "./components/MoviesContainer";
+import Home from "./components/Home";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <Routes>
           <Route path="/movies" element={<MoviesContainer/>} />
           <Route path="/addmovie" element={<AddMovie/>} />
+          <Route path="/" element={<Home/>}/>
       </Routes>
     
     </div>

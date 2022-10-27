@@ -9,10 +9,10 @@ const NavBar = () => {
   return (
       <Navbar bg="dark" variant="dark">
         <Container>
-          <Navbar.Brand>LGBTQ Entertainment</Navbar.Brand>
+          <Navbar.Brand><Link to='/'>LGBTQ Entertainment</Link></Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link href='/movies' className='movies'>LGBTQ Movies</Nav.Link>
-            <Nav.Link href='/addmovie'>Add New Movie</Nav.Link>
+            <Link to='/movies' className='movies'>LGBTQ Movies</Link>
+            <Link to='/addmovie'>Add New Movie</Link>
           </Nav>
         </Container>
       </Navbar>
