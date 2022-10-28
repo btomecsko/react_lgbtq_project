@@ -4,7 +4,7 @@
       "id": 1,
       "title": "Mysterious Skin",
       "release": "2004",
-      "genre": "Coming-ofAge",
+      "genre": "Coming-of-Age",
       "imageUrl": "https://m.media-amazon.com/images/M/MV5BMTgxMjQ4NzE5OF5BMl5BanBnXkFtZTcwNzkwOTkyMQ@@._V1_.jpg"
     },
     {
@@ -39,36 +39,36 @@
       "id": 6,
       "title": "Young Soul Rebels",
       "release": "1991",
-      "genre": "",
-      "imageUrl": ""
+      "genre": "Coming-of-Age",
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BMTQxMjAxNzM0Nl5BMl5BanBnXkFtZTYwMzE4Mjg5._V1_FMjpg_UX1000_.jpg"
     },
     {
       "id": 7,
       "title": "Portrait of a Lady on Fire",
       "release": "2019",
-      "genre": "",
-      "imageUrl": ""
+      "genre": "Historical",
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BNGI1MGMxMDEtMDU0Ny00YjE1LWE0ZDEtOWYyOTA1MzEwNjVjXkEyXkFqcGdeQXVyMTA4NjE0NjEy._V1_.jpg"
     },
     {
       "id": 8,
       "title": "Paris is Burning",
       "release": "1990",
-      "genre": "",
-      "imageUrl": ""
+      "genre": "Documentary",
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BMTY2NTc4MjQwMV5BMl5BanBnXkFtZTcwNjg5MTAzMQ@@._V1_.jpg"
     },
     {
       "id": 9,
       "title": "Saving Face",
       "release": "2004",
-      "genre": "",
-      "imageUrl": ""
+      "genre": "Drama",
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BODU1ODAxNzA3MV5BMl5BanBnXkFtZTcwOTkyMzEzMQ@@._V1_.jpg"
     },
     {
       "id": 10,
       "title": "Call Me by Your Name",
       "release": "2017",
-      "genre": "",
-      "imageUrl": ""
+      "genre": "Coming-of-Age",
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BNDk3NTEwNjc0MV5BMl5BanBnXkFtZTgwNzYxNTMwMzI@._V1_FMjpg_UX1000_.jpg"
     },
     {
       "id": 11,
