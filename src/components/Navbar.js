@@ -9,7 +9,7 @@ const NavBar = () => {
   return (
       <Navbar bg="dark" variant="dark">
         <Container>
-          <Navbar.Brand><Link to='/'>LGBTQ Entertainment</Link></Navbar.Brand>
+          <Navbar.Brand><Link to='/'>Queer Entertainment</Link></Navbar.Brand>
           <Nav className="me-auto">
             <Link to='/movies' className='movies'>LGBTQ Movies</Link>
             <Link to='/addmovie'>Add New Movie</Link>
