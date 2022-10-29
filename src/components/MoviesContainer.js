@@ -1,5 +1,9 @@
 import React, {useEffect, useState} from "react";
+
 import Container from 'react-bootstrap/Container';
+import Form from 'react-bootstrap/Form';
+import Button from 'react-bootstrap/Button';
+
 import Movies from "./Movies";
 
 
@@ -25,10 +29,10 @@ const MoviesContainer = () => {
 
   return (
     <Container fluid>
-    <div>
-    <input className="prompt" value={searchTerm} onChange={handleChange} />
+    <Form className="d-flex">
+    <Form.Control className="prompt" value={searchTerm} onChange={handleChange} placeholder="Search for Movie"/>
         <i className="search icon" />
-    </div>
+    </Form>
     <div>
     <ul className="cards">
       {searchMovies.map(movie => (
