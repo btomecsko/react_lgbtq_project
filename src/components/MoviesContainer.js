@@ -1,4 +1,5 @@
 import React, {useEffect, useState} from "react";
+import Container from 'react-bootstrap/Container';
 import Movies from "./Movies";
 
 
@@ -14,6 +15,7 @@ const MoviesContainer = () => {
   }, []);
 
   return (
+    <Container fluid>
     <ul className="cards">
       {movies.map(movie => (
         <Movies
@@ -25,6 +27,7 @@ const MoviesContainer = () => {
         />
       ))}
     </ul>
+    </Container>
   );
 }
 
