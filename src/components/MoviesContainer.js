@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-import Container from 'react-bootstrap/Container';
+import Card from 'react-bootstrap/Card';
 import Form from 'react-bootstrap/Form';
 
 
@@ -29,8 +29,9 @@ const MoviesContainer = () => {
 
   return (
     <div className="moviesContainer">
+      <Card.Header className="fs-2"><b>Directory</b></Card.Header>
       <Form className="d-flex">
-        <Form.Control className="prompt" value={searchTerm} onChange={handleChange} placeholder="Search for Movie" />
+        <Form.Control className="prompt" value={searchTerm} onChange={handleChange} placeholder="Search for Movie Title" />
         <i className="search icon" />
       </Form>
       <div>
