@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import {LinkContainer} from 'react-router-bootstrap'
 
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
@@ -9,10 +9,16 @@ const NavBar = () => {
   return (
       <Navbar bg="dark" variant="dark">
         <Container>
-          <Navbar.Brand><Link to='/'>Queer Entertainment</Link></Navbar.Brand>
+          <LinkContainer to='/'>
+          <Navbar.Brand>Queer Entertainment</Navbar.Brand>
+          </LinkContainer>
           <Nav className="me-auto">
-            <Link to='/movies' className='movies'>LGBTQ Movies</Link>
-            <Link to='/addmovie'>Add New Movie</Link>
+            <LinkContainer to='/movies'>
+            <Nav.Link className='movies'>LGBTQ Movies</Nav.Link>
+            </LinkContainer>
+            <LinkContainer to='/addmovie'>
+            <Nav.Link >Add New Movie</Nav.Link>
+            </LinkContainer>
           </Nav>
         </Container>
       </Navbar>

@@ -28,13 +28,13 @@ const MoviesContainer = () => {
   }, []);
 
   return (
-    <div className="movies">
+    <div className="moviesContainer">
       <Form className="d-flex">
         <Form.Control className="prompt" value={searchTerm} onChange={handleChange} placeholder="Search for Movie" />
         <i className="search icon" />
       </Form>
       <div>
-        <ul className="movieContainer">
+        <ul className="movieList">
           {searchMovies.map(movie => (
             <Movies
               key={movie.id}
