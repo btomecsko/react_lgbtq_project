@@ -104,6 +104,34 @@
       "genre": "Comedy-Drama",
       "imageUrl": "https://m.media-amazon.com/images/M/MV5BMjE4NTMwNDg5MF5BMl5BanBnXkFtZTcwNDY2ODE0Mw@@._V1_FMjpg_UX1000_.jpg",
       "id": 15
+    },
+    {
+      "id": 16,
+      "title": "Pariah",
+      "release": "2011",
+      "genre": "Drama",
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BMTM1MTQyNTY3NV5BMl5BanBnXkFtZTcwODk0ODk2Ng@@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+      "id": 17,
+      "title": "Weekend",
+      "release": "2011",
+      "genre": "Drama",
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BNDE3MDQzNDA3Nl5BMl5BanBnXkFtZTcwMjk3NTU4Ng@@._V1_.jpg"
+    },
+    {
+      "id": 18,
+      "title": "Pride",
+      "release": "2014",
+      "genre": "Historical Comedy",
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BMTU2OTcyOTE3MF5BMl5BanBnXkFtZTgwNTg5Mjc1MjE@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+      "id": 19,
+      "title": "Carol",
+      "release": "2015",
+      "genre": "Drama",
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BMTczNTQ4OTEyNV5BMl5BanBnXkFtZTgwNDgyMDI3NjE@._V1_FMjpg_UX1000_.jpg"
     }
   ]
 }
