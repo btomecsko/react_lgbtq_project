@@ -5,8 +5,9 @@ import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
-const AddMovie = ({ movies, setMovies }) => {
+const AddMovie = () => {
 
+  const [movies, setMovies] = useState([]);
   const navigate = useNavigate();
   const [form, setForm] = useState({});
 
@@ -29,7 +30,7 @@ const AddMovie = ({ movies, setMovies }) => {
       body: JSON.stringify(form),
     })
       .then((res) => res.json())
-      .then((data) => setMovies([data, ...movies]));
+      .then((data) => setMovies(data, ...movies));
     navigate("/movies")
   };
 

@@ -139,6 +139,20 @@
       "genre": "Documentary",
       "imageUrl": "https://m.media-amazon.com/images/M/MV5BYTk1MzczM2YtZmJmOC00NWQzLWJkNTAtYTI3YzE3ODcyMTI0XkEyXkFqcGdeQXVyMzAyMzE2MzM@._V1_FMjpg_UX1000_.jpg",
       "id": 20
+    },
+    {
+      "title": "Y Tu Mamá También",
+      "release": "2001",
+      "genre": "Coming-of-Age",
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BNDhjMzc3ZTgtY2Y4MC00Y2U3LWFiMDctZGM3MmM4N2YzNDQ5XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg",
+      "id": 21
+    },
+    {
+      "title": "Pink Flamingos",
+      "release": "1972",
+      "genre": "Dark Comedy",
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BODZlZDUwNzctOWRmNi00OTE2LTg1NGQtNjAxYzBhYjFhNmVlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg",
+      "id": 22
     }
   ]
 }
