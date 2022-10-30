@@ -1,16 +1,14 @@
-import React, {useState} from "react";
-import {useNavigate} from "react-router-dom";
+import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
-import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
-import Row from 'react-bootstrap/Row';
 import Button from 'react-bootstrap/Button';
 
-const AddMovie = ({movies, setMovies}) => {
+const AddMovie = ({ movies, setMovies }) => {
 
   const navigate = useNavigate();
   const [form, setForm] = useState({});
-  
+
   let handleChange = (e) => {
     let name = e.target.name;
     let value = e.target.value
@@ -31,30 +29,30 @@ const AddMovie = ({movies, setMovies}) => {
     })
       .then((res) => res.json())
       .then((data) => setMovies([data, ...movies]));
-      navigate("/movies")
+    navigate("/movies")
   };
 
   return (
     <Form onSubmit={handleSubmit}>
-      <Row>
-        <Col>
-          <Form.Control type="text" name="title" placeholder="LGBTQ Movie Title" onChange={handleChange}/>
-        </Col>
-        <Col>
-          <Form.Control type="text" name="release" placeholder="Release Year" onChange={handleChange}/>
-        </Col>
-        <Col>
-          <Form.Control type="text" name="genre" placeholder="Genre" onChange={handleChange}/>
-        </Col>
-        <Col> 
-          <Form.Control type="url" name="imageUrl" placeholder="Movie Poster" onChange={handleChange}/>
-        </Col>
-        <Col>
-        <Button variant="primary" type="submit">
-          Add Movie
-        </Button>
-        </Col>
-      </Row>
+      <Form.Group className="mb-3">
+        <Form.Label>Enter LGBTQ Movie Title:</Form.Label>
+        <Form.Control type="text" name="title" placeholder="Title" onChange={handleChange} />
+      </Form.Group>
+      <Form.Group className="mb-3">
+        <Form.Label>Enter the Release Year:</Form.Label>
+        <Form.Control type="text" name="release" placeholder="Release Year" onChange={handleChange} />
+      </Form.Group>
+      <Form.Group className="mb-3">
+        <Form.Label>Enter the Genre:</Form.Label>
+        <Form.Control type="text" name="genre" placeholder="Genre" onChange={handleChange} />
+      </Form.Group>
+      <Form.Group className="mb-3">
+        <Form.Label>Enter Image URL:</Form.Label>
+        <Form.Control type="url" name="imageUrl" placeholder="Movie Poster" onChange={handleChange} />
+      </Form.Group>
+      <Button variant="primary" type="submit">
+        Add Movie
+      </Button>
     </Form>
   );
 }
