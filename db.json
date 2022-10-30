@@ -132,6 +132,13 @@
       "release": "2015",
       "genre": "Drama",
       "imageUrl": "https://m.media-amazon.com/images/M/MV5BMTczNTQ4OTEyNV5BMl5BanBnXkFtZTgwNDgyMDI3NjE@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+      "title": "Disclosure: Trans Lives on Screen",
+      "release": "2020",
+      "genre": "Documentary",
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BYTk1MzczM2YtZmJmOC00NWQzLWJkNTAtYTI3YzE3ODcyMTI0XkEyXkFqcGdeQXVyMzAyMzE2MzM@._V1_FMjpg_UX1000_.jpg",
+      "id": 20
     }
   ]
 }
