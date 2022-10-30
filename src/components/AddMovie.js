@@ -38,19 +38,19 @@ const AddMovie = ({ movies, setMovies }) => {
     <Card.Header className="fs-2 moviesContainer"><b>Add New Movie</b></Card.Header>
     <Form onSubmit={handleSubmit} className="addMovie">
       <Form.Group className="mb-3">
-        <Form.Label>Enter LGBTQ Movie Title:</Form.Label>
+        <Form.Label><i>Enter LGBTQ Movie Title</i></Form.Label>
         <Form.Control type="text" name="title" placeholder="Title" onChange={handleChange} />
       </Form.Group>
       <Form.Group className="mb-3">
-        <Form.Label>Enter the Release Year:</Form.Label>
+        <Form.Label><i>Enter the Release Year</i></Form.Label>
         <Form.Control type="text" name="release" placeholder="Release Year" onChange={handleChange} />
       </Form.Group>
       <Form.Group className="mb-3">
-        <Form.Label>Enter the Genre:</Form.Label>
+        <Form.Label><i>Enter the Genre</i></Form.Label>
         <Form.Control type="text" name="genre" placeholder="Genre" onChange={handleChange} />
       </Form.Group>
       <Form.Group className="mb-3">
-        <Form.Label>Enter Image URL:</Form.Label>
+        <Form.Label><i>Enter Image URL</i></Form.Label>
         <Form.Control type="url" name="imageUrl" placeholder="Movie Poster" onChange={handleChange} />
       </Form.Group>
       <Button variant="primary" type="submit">
