@@ -1,3 +1,27 @@
+# React.js Project, Queer Entertainment
+
+### Overview
+Queer Entertainment is a film directory that displays a list of LGBTQ films.
+
+### Requirements
+json-server and npm
+
+### How to install / use
+Steps:
+### 1: Once you have this cloned to your device, you will want to ensure that you are in the react_lgbtq_project folder and run open npm install. This will install any needed npm modules to the folder.
+### 2: After you have run npm install, you will want to open a duplicate in your terminal or commanader and ensure both tabs are in the react_lgbtq_project folder. From there, you will want to run `npm run server` in one tab and `npm start` in the other tab. The run server will begin to run the db.json for the data to populate and npm start will start the react application in a browser. 
+### 3. Feel free to explore the site! This is a single page application that uses several react components, such as navigation, movie directory and form submittion.
+        * At the top, you will see a navigation bar. This will allow you to navigate through the three main components. At the moment, you are on the home page, which displays the navbar and a card describing what the site is about. 
+        * In the LGBTQ Movies tab, you will find the directory of movies. This displays a list of movies in cards and there is a search function at the top. The search function allows you to search for a movie based on the title. 
+        * In the Add New Movie tab, this will take you to a form to add a new LGBTQ movie. You will want to enter the movie title, the release year, genre and image url. Once that is input, you can click add movie and that will redirect you back to the directory where your movie will now be displayed. 
+
+###Notes
+###All images used for the movie poster were taken from imdb.com
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
