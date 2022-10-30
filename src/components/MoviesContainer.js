@@ -34,7 +34,7 @@ const MoviesContainer = () => {
         <i className="search icon" />
       </Form>
       <div>
-        <ul className="cards">
+        <ul className="movieContainer">
           {searchMovies.map(movie => (
             <Movies
               key={movie.id}

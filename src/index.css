@@ -5,13 +5,24 @@
   text-align: center;
 }
 
-.cards {
+.movieContainer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   list-style: none;
   margin: 20px;
   padding: 0;
+}
+
+.moviesCard{
+  border: 3px solid;
+  background-color: beige;
+}
+
+.movieImage{
+  width: 100%;
+    height: 25vw;
+    object-fit: cover;
 }
 
 .movies {

@@ -5,9 +5,9 @@ import ListGroup from 'react-bootstrap/ListGroup';
 
 const Movies = ({title, year, genre, poster}) => {
   return (
-      <li>
+      <li className="moviesCard">
       <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src={poster} alt={title}/>
+      <Card.Img className="movieImage" variant="top" src={poster} alt={title}/>
       <ListGroup className="list-group-flush">
         <ListGroup.Item><b>{title}</b></ListGroup.Item>
         <ListGroup.Item><i>{genre}</i></ListGroup.Item>
