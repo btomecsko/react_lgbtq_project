@@ -1,8 +1,9 @@
-import React, { useState } from "react";
+import React, { Fragment, useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
+import Card from 'react-bootstrap/Card';
 
 const AddMovie = ({ movies, setMovies }) => {
 
@@ -33,7 +34,9 @@ const AddMovie = ({ movies, setMovies }) => {
   };
 
   return (
-    <Form onSubmit={handleSubmit}>
+    <Fragment>
+    <Card.Header className="fs-2 moviesContainer"><b>Add New Movie</b></Card.Header>
+    <Form onSubmit={handleSubmit} className="addMovie">
       <Form.Group className="mb-3">
         <Form.Label>Enter LGBTQ Movie Title:</Form.Label>
         <Form.Control type="text" name="title" placeholder="Title" onChange={handleChange} />
@@ -54,6 +57,7 @@ const AddMovie = ({ movies, setMovies }) => {
         Add Movie
       </Button>
     </Form>
+    </Fragment>
   );
 }
 
