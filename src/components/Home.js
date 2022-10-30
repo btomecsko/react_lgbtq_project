@@ -10,8 +10,7 @@ const Home = () => {
 
   return (
     <Container fluid>
-      <div className="homeCard">
-      <Card className="text-center">
+      <Card className="text-center homeCard" style={{backgroundColor: '#3C4048'}}>
         <Card.Header className="fs-2"><b>Queer Entertainment</b></Card.Header>
         <Card.Body>
           <Card.Text>
@@ -19,7 +18,6 @@ const Home = () => {
           </Card.Text>
         </Card.Body>
       </Card>
-      </div>
     </Container>
 
   );
