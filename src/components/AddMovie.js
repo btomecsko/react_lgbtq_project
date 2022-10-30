@@ -36,7 +36,7 @@ const AddMovie = ({ movies, setMovies }) => {
   return (
     <Fragment>
     <Card.Header className="fs-2 moviesContainer"><b>Add New Movie</b></Card.Header>
-    <Form onSubmit={handleSubmit} className="addMovie">
+    <Form onSubmit={handleSubmit} className="addMovie" style={{backgroundColor: '#3C4048'}}>
       <Form.Group className="mb-3">
         <Form.Label><i>Enter LGBTQ Movie Title</i></Form.Label>
         <Form.Control type="text" name="title" placeholder="Title" onChange={handleChange} />
@@ -53,7 +53,7 @@ const AddMovie = ({ movies, setMovies }) => {
         <Form.Label><i>Enter Image URL</i></Form.Label>
         <Form.Control type="url" name="imageUrl" placeholder="Movie Poster" onChange={handleChange} />
       </Form.Group>
-      <Button variant="primary" type="submit">
+      <Button style={{backgroundColor: '#00ABB3'}} type="submit">
         Add Movie
       </Button>
     </Form>
