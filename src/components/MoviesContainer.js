@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from "react";
+import React, { useEffect, useState } from "react";
 
 import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
@@ -22,31 +22,31 @@ const MoviesContainer = () => {
 
   useEffect(() => {
     fetch('http://localhost:3001/lgbtqMovies')
-    .then(res => res.json())
-    .then(data => setMovies(data))
-    .catch(err => console.error(err))
+      .then(res => res.json())
+      .then(data => setMovies(data))
+      .catch(err => console.error(err))
   }, []);
 
   return (
-    <Container fluid>
-    <Form className="d-flex">
-    <Form.Control className="prompt" value={searchTerm} onChange={handleChange} placeholder="Search for Movie"/>
+    <div className="movies">
+      <Form className="d-flex">
+        <Form.Control className="prompt" value={searchTerm} onChange={handleChange} placeholder="Search for Movie" />
         <i className="search icon" />
-    </Form>
-    <div>
-    <ul className="cards">
-      {searchMovies.map(movie => (
-        <Movies
-        key={movie.id}
-        title={movie.title}
-        year={movie.release}
-        genre={movie.genre}
-        poster={movie.imageUrl}
-        />
-      ))}
-    </ul>
+      </Form>
+      <div>
+        <ul className="cards">
+          {searchMovies.map(movie => (
+            <Movies
+              key={movie.id}
+              title={movie.title}
+              year={movie.release}
+              genre={movie.genre}
+              poster={movie.imageUrl}
+            />
+          ))}
+        </ul>
+      </div>
     </div>
-    </Container>
   );
 }
 
